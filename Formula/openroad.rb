@@ -22,7 +22,7 @@ class Openroad < Formula
   depends_on "tcl-tk@8"
   depends_on "yaml-cpp"
   depends_on "zstd"
-
+  depends_on "or-tools"
   def install
     prefix.install Dir["*"]
   end
