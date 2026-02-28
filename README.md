@@ -46,6 +46,11 @@ tcl-tk@8
 yaml-cpp
 zstd
 ```
+If no install automatically please using
+```
+brew install abseil cbc fmt gmp highs icu4c@78 libomp mpfr openblas protobuf python@3.14 qt@5 re2 scip spdlog tcl-tk@8 yaml-cpp zstd
+```
+
 These dependencies will be installed along with OpenROAD to ensure compatibility with the Apple Silicon architecture.
 Troubleshooting
 If you encounter issues with the dependencies not being automatically installed:
