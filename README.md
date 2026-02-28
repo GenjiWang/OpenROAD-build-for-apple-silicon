@@ -45,10 +45,11 @@ spdlog
 tcl-tk@8
 yaml-cpp
 zstd
+or-tools
 ```
 If no install automatically please using
 ```
-brew install abseil cbc fmt gmp highs icu4c@78 libomp mpfr openblas protobuf python@3.14 qt@5 re2 scip spdlog tcl-tk@8 yaml-cpp zstd
+brew install abseil cbc fmt gmp highs icu4c@78 libomp mpfr openblas protobuf python@3.14 qt@5 re2 scip spdlog tcl-tk@8 yaml-cpp zstd or-tools
 ```
 
 Add these to ~/.zshrc
