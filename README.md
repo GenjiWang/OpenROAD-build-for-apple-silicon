@@ -65,6 +65,5 @@ For more information about OpenROAD, you can visit the official OpenROAD website
 - **常見錯誤**：列出了解決常見問題的方法。
 - **貢獻方式**：鼓勵開源貢獻，並提到如何提交問題或PR。
 
-將這個 `README.md` 文件加入你的 GitHub 頁面，並提交上去後，它就會顯示在你項目的主頁上。
 
 
