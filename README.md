@@ -64,11 +64,4 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 For more information about OpenROAD, you can visit the official OpenROAD website.
 
-### 主要步驟：
-- **安裝說明**：詳細列出了如何將該 tap 加入 Homebrew，並安裝 `OpenROAD`。
-- **依賴**：列出了 Homebrew 安裝過程中會自動處理的依賴包。
-- **常見錯誤**：列出了解決常見問題的方法。
-- **貢獻方式**：鼓勵開源貢獻，並提到如何提交問題或PR。
-
-
 
