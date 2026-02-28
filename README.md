@@ -51,6 +51,17 @@ If no install automatically please using
 brew install abseil cbc fmt gmp highs icu4c@78 libomp mpfr openblas protobuf python@3.14 qt@5 re2 scip spdlog tcl-tk@8 yaml-cpp zstd
 ```
 
+Add these to ~/.zshrc
+```
+export PATH="/opt/homebrew/bin:/opt/homebrew/opt/bison/bin:/opt/homebrew/opt/flex/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/zstd/lib $LDFLAGS"
+export CPPFLAGS="-I/opt/homebrew/opt/zstd/include $CPPFLAGS"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/zstd/lib/pkgconfig:$PKG_CONFIG_PATH"
+export LDFLAGS="-L/opt/homebrew/opt/icu4c/lib $LDFLAGS"
+export CPPFLAGS="-I/opt/homebrew/opt/icu4c/include $CPPFLAGS"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/icu4c/lib/pkgconfig:$PKG_CONFIG_PATH"
+```
+
 These dependencies will be installed along with OpenROAD to ensure compatibility with the Apple Silicon architecture.
 Troubleshooting
 If you encounter issues with the dependencies not being automatically installed:
